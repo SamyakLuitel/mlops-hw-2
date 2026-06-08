@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/user/nebius/mlops/mlflow-tutorial/mlops-hw-2/mlruns_eval/130063483547684380/ccbe481627cc414e81d6335ea3ffaae5/artifacts
+end_time: 1780872466306
+entry_point_name: ''
+experiment_id: '130063483547684380'
+lifecycle_stage: active
+run_id: ccbe481627cc414e81d6335ea3ffaae5
+run_name: v4-20260607-224535
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780872335503
+status: 3
+tags: []
+user_id: user

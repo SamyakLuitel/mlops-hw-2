@@ -1,0 +1,8 @@
+artifact_location: file:///Users/user/nebius/mlops/mlflow-tutorial/mlops-hw-2/mlruns_eval/0
+creation_time: 1780872335034
+experiment_id: '0'
+last_update_time: 1780872335034
+lifecycle_stage: active
+name: Default
+trace_location: null
+workspace: default

@@ -1,0 +1,8 @@
+artifact_location: file:///Users/user/nebius/mlops/mlflow-tutorial/mlops-hw-2/mlruns_eval/130063483547684380
+creation_time: 1780872335039
+experiment_id: '130063483547684380'
+last_update_time: 1780872335039
+lifecycle_stage: active
+name: travel-assistant
+trace_location: null
+workspace: default
