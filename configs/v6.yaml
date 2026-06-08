@@ -1,0 +1,18 @@
+display_name: "Hardened sandwich (v3 prompt + input/output validators)"
+description: "v5 sandwich defense-in-depth, but with the v3 anti-jailbreak hardened system prompt instead of the lighter v2 prompt. Hypothesis: hardened prompt + input classifier + output validator together cut jailbreak leakage below v5."
+model:
+  name: nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B
+  temperature: 0.0
+system_prompt: prompts/v3_prompt_hardening.txt
+guardrail:
+  type: sandwich
+  input_classifier:
+    model:
+      name: nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B
+      temperature: 0.0
+    prompt: prompts/classifier_input.txt
+  output_validator:
+    model:
+      name: nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B
+      temperature: 0.0
+    prompt: prompts/classifier_output.txt
